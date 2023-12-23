@@ -23,4 +23,18 @@ Annotations were achieved through part-of-speech tagging which was made possible
 
 ## File Format and Columns Description
 | Variable | Description |
---------------------------
+| --- | --- |
+| file_name | The name of the file of the novel text in format Author Last Name - Title Keyword(s) |
+| author_name | Name of the author |
+| year_published | The year of publication of the novel |
+| author_type | A Classic author or a Modern author |
+| Doc | Text processed through spaCy |
+| Tokens | Text broken down into words or 'tokens' |
+| Lemmas | Wordcounts expended to include root words |
+| POS | Part-of-speech tag for each word |
+| Proper_Nouns | Extracted every proper noun in each file |
+| Named_Entities | Categories assigned to known entity types |
+| NE_Words | The words that the named entities are assigned to |
+
+## Side Notes
+The corpus is big. While more accuracy is achieved by including a larger dataset, it could also be possible to create smaller sets with only 2 novels in each.
