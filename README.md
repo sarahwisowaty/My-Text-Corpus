@@ -22,3 +22,4 @@ The .txt files in the corpus were cleaned up using a simple replace function for
 Annotations were achieved through part-of-speech tagging which was made possible through the prior tokenization and lemmatization. These annotations identified both part-of-speech and named entities, creating texts that were labeled in detail.
 
 ## File Format and Columns Description
+| Variable | Description |
