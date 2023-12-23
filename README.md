@@ -16,4 +16,9 @@ The two major criteria when selecting works were that the authors of the works h
 Collecting this data involved downloading the novels from various online platforms (after legally purchasing e-books online for modern writers). In some cases, this involved converting pdf files to txt files using an online tool.
 
 ## Cleaning and Preprocessing
-The .txt files in the corpus were cleaned up using a simple replace function 
+The .txt files in the corpus were cleaned up using a simple replace function for \n markers. They were also tokenized and lemmatized for standardization purposes. 
+
+## Annotations
+Annotations were achieved through part-of-speech tagging which was made possible through the prior tokenization and lemmatization. These annotations identified both part-of-speech and named entities, creating texts that were labeled in detail.
+
+## File Format and Columns Description
