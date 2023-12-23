@@ -23,3 +23,4 @@ Annotations were achieved through part-of-speech tagging which was made possible
 
 ## File Format and Columns Description
 | Variable | Description |
+--------------------------
